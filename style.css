@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins';
 }
@@ -83,9 +87,6 @@ input[type=submit] {
 
 .section-amazing {
     padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     background-color: rgba(0, 0, 0, .05);
 
