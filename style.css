@@ -33,12 +33,26 @@ a {
     margin-right: 1rem;
 }
 
+.topSearch {
+    padding: 0.5rem;
+}
+
 .npmLogo {
     width: 150px;
 }
 
+.searchForm {
+    display: flex;
+}
+
+.searchForm>input {
+    padding: 10px 5px;
+    /** 10px arriba y abajo y 5px izquierda y derecha */
+}
+
 .loginLinks {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -48,4 +62,6 @@ a {
 
 .loginLinks__join {
     border: 1px solid rgba(0, 0, 0, .7);
+    padding: 0.5rem;
+
 }
