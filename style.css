@@ -46,8 +46,20 @@ a {
 }
 
 .searchForm>input {
-    padding: 10px 5px;
-    /** 10px arriba y abajo y 5px izquierda y derecha */
+    padding: 1rem;
+    border: none;
+    /** 1 rem en cuatro direcciones*/
+
+}
+
+#package-name {
+    background-color: rgba(0, 0, 0, .05);
+    width: 350px;
+}
+
+input[type=submit] {
+    background-color: #fb3e44;
+    color: white;
 }
 
 .loginLinks {
@@ -58,10 +70,12 @@ a {
 
 .loginLinks>a {
     color: rgba(0, 0, 0, .7);
+    padding: 0.4rem 1rem;
+    /** 0.4rem arriba y abajo de cada enlace, y 1rem izquierda y derecha de cada enlace*/
 }
 
+/** Porque esta nomenclatura ? Metodología BEM */
 .loginLinks__join {
     border: 1px solid rgba(0, 0, 0, .7);
-    padding: 0.5rem;
 
 }
