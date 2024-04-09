@@ -81,9 +81,12 @@ input[type=submit] {
 }
 
 .section-amazing {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: rgba(232, 217, 217, .3);
-    padding: 50px 20px;
 }
 
 .section-amazing__title {
