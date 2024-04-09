@@ -49,8 +49,16 @@ a {
 
 
 #package-name {
-    color: rgba(0, 0, 0, .05);
+    background-color: rgba(0, 0, 0, .05);
+    border: none;
 
+
+}
+
+input[type=submit] {
+    background-color: #fb3e44;
+    color: white;
+    border: none;
 }
 
 
