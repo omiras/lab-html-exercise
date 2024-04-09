@@ -35,6 +35,7 @@ a {
 
 .searchPackages {
     padding: 0.4rem;
+
 }
 
 .npmLogo {
@@ -51,7 +52,7 @@ a {
 #package-name {
     background-color: rgba(0, 0, 0, .05);
     border: none;
-    width: 400px;
+    width: 350px;
 
 
 }
