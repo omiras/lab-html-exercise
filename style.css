@@ -51,6 +51,7 @@ a {
 #package-name {
     background-color: rgba(0, 0, 0, .05);
     border: none;
+    width: 300px;
 
 
 }
@@ -106,4 +107,24 @@ input[type=submit] {
     justify-content: space-between;
     width: 40%;
     margin: 2rem auto;
+}
+
+.section-open-source {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.section-open-source__image {
+    width: 200px;
+}
+
+.section-open-source__title {
+    font-size: 2rem;
+}
+
+.section-open-source__description {
+    width: 60%;
 }
