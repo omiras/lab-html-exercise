@@ -51,7 +51,7 @@ a {
 #package-name {
     background-color: rgba(0, 0, 0, .05);
     border: none;
-    width: 300px;
+    width: 400px;
 
 
 }
@@ -127,4 +127,29 @@ input[type=submit] {
 
 .section-open-source__description {
     width: 60%;
+}
+
+.section-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.features {
+    display: flex;
+    gap: 1rem;
+}
+
+.features>div {
+    padding: 16px;
+}
+
+.features h3 {
+    color: red;
+}
+
+.features img {
+    width: 40px;
 }
