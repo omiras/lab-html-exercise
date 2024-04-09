@@ -107,3 +107,25 @@ input[type=submit] {
 
 
 }
+
+.section-open-source {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.section-open-source__image {
+    width: 200px;
+}
+
+.section-open-source__title {
+    font-size: 2rem;
+}
+
+.section-open-source__description {
+    text-align: center;
+    width: 60%;
+}
