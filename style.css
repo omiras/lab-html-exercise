@@ -78,3 +78,32 @@ input[type=submit] {
 .loginLinks__join {
     border: 1px solid rgba(0, 0, 0, .7);
 }
+
+.section-amazing {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .05);
+
+}
+
+.section-amazing__title {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-amazing__description {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.section-amazing__plans {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 2rem auto;
+}
