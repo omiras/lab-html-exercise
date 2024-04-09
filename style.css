@@ -33,17 +33,37 @@ a {
     margin-right: 1rem;
 }
 
+.searchPackages {
+    padding: 0.4rem;
+}
+
 .npmLogo {
     width: 150px;
 }
 
+.formSearch>input {
+    padding: 1rem;
+}
+
+
+
+
+#package-name {
+    color: rgba(0, 0, 0, .05);
+
+}
+
+
+
 .loginLinks {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
 .loginLinks>a {
     color: rgba(0, 0, 0, .7);
+    padding: 0.4rem 1rem;
 }
 
 
