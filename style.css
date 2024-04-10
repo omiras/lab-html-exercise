@@ -39,7 +39,9 @@ a {
 
 .topSearch {
     padding: 0.5rem;
+    gap: 1rem
 }
+
 
 .npmLogo {
     width: 150px;
@@ -47,23 +49,27 @@ a {
 
 .searchForm {
     display: flex;
+    width: 100%;
 }
 
 .searchForm>input {
     padding: 1rem;
     border: none;
     /** 1 rem en cuatro direcciones*/
+    flex-grow: 1;
+    flex-shrink: 1;
 
 }
 
 #package-name {
     background-color: rgba(0, 0, 0, .05);
-    width: 350px;
 }
 
 input[type=submit] {
     background-color: #fb3e44;
     color: white;
+    flex-grow: 0;
+
 }
 
 .loginLinks {
@@ -81,7 +87,6 @@ input[type=submit] {
 /** Porque esta nomenclatura ? Metodología BEM */
 .loginLinks__join {
     border: 1px solid rgba(0, 0, 0, .7);
-
 }
 
 .section-amazing {
