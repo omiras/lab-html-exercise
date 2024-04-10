@@ -84,13 +84,14 @@ input[type=submit] {
 .loginLinks {
     display: flex;
     align-items: center;
-    gap: 1rem;
 }
 
 .loginLinks>a {
     color: rgba(0, 0, 0, .7);
     padding: 0.4rem 1rem;
+    width: max-content;
     /** 0.4rem arriba y abajo de cada enlace, y 1rem izquierda y derecha de cada enlace*/
+    /** En este width podríamos haber puesto unos píxeles "a fuego", porque si no, Log In queda en dos líneas (probar a borrar la propiedad width). max-content te asegura que el contenido va a quedarse en una sola línea de texto: https://developer.mozilla.org/en-US/docs/Web/CSS/max-content# */
 }
 
 /** Porque esta nomenclatura ? Metodología BEM */
