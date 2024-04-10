@@ -44,12 +44,18 @@ a {
 
 
 .npmLogo {
-    width: 150px;
+    width: 100px;
 }
 
 .searchForm {
     display: flex;
     width: 100%;
+
+}
+
+.searchForm>img {
+    background-color: rgba(0, 0, 0, .05);
+    width: 50px;
 }
 
 .searchForm>input {
@@ -63,6 +69,7 @@ a {
 
 #package-name {
     background-color: rgba(0, 0, 0, .05);
+
 }
 
 input[type=submit] {
