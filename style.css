@@ -50,6 +50,7 @@ a {
 .searchForm {
     display: flex;
     width: 100%;
+    /** Formulario, ocupa todo el espacio disponible que te deje tu contenedor padre flex*/
 
 }
 
@@ -63,7 +64,7 @@ a {
     border: none;
     /** 1 rem en cuatro direcciones*/
     flex-grow: 1;
-    flex-shrink: 1;
+    /** Respecto a tus hermanos , tu debes crecer siempre y tomar el espacio disponible que te permitan */
 
 }
 
@@ -76,6 +77,7 @@ input[type=submit] {
     background-color: #fb3e44;
     color: white;
     flex-grow: 0;
+    /** Como hermano que eres de un contenedor flex, NUNCA crezcas si hay espacio disponible. Debes quedarte solamente con el espacio que necesitas */
 
 }
 
@@ -137,9 +139,6 @@ input[type=submit] {
     background-color: white;
 }
 
-
-
-
 .section-open-source {
     display: flex;
     flex-direction: column;
@@ -155,6 +154,9 @@ input[type=submit] {
 
 .section-open-source__title {
     font-size: 2rem;
+    font-style: italic;
+    background-color: rgba(255, 204, 53, .4);
+    transform: skew(9deg, 0deg);
 }
 
 .section-open-source__description {
@@ -183,8 +185,6 @@ input[type=submit] {
     color: #ED1C24;
     font-weight: 700;
 }
-
-
 
 .create-org-button {
     padding: 15px 120px;
