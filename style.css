@@ -173,6 +173,7 @@ input[type=submit] {
     align-items: center;
     gap: 2rem;
     margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .features {
